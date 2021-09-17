@@ -20,7 +20,7 @@ from nltk.corpus import stopwords
 
 from csv import reader
 
-with open('/Users/jcjoyce/Desktop/WMPython/Module5/words.csv', 'rt', encoding='ISO-8859-1') as TWITTERFINGERS:
+with open('----------', 'rt', encoding='ISO-8859-1') as TWITTERFINGERS:
     REAPPER = reader(TWITTERFINGERS)
     TRYME = list(REAPPER)
     
